@@ -11,7 +11,7 @@ def home():
 def hello_name(base64String):
    #return '%s' % base64String
    result = pix2tex.pix2tex(base64String)
-   return jsonify(result)
+   return '%s' %result
 
 if __name__ == '__main__':
    app.run(debug = True)
