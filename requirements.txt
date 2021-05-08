@@ -7,7 +7,6 @@ click==7.1.2
 cycler==0.10.0
 decorator==4.4.2
 einops==0.3.0
-entmax==1.0
 filelock==3.0.12
 Flask==1.1.2
 idna==2.10
